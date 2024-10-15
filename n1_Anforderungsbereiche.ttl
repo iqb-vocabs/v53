@@ -1,0 +1,546 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v53/n1/>. 
+@prefix n1: <https://w3id.org/iqb/v53/n1/>. 
+
+n1:a4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 1.1";
+	skos:broader n1:u3q;
+	skos:prefLabel "Routineargumentationen wiedergeben (wie Rechnungen, Verfahren, Herleitungen, Sätze, die aus dem Unterricht vertraut sind)"@de.
+n1:h5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 1.2";
+	skos:broader n1:u3q;
+	skos:prefLabel "mit Alltagswissen argumentieren"@de.
+n1:u3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 1";
+	skos:broader n1:z7x;
+	skos:prefLabel "Mathematisch argumentieren"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:a4q,
+		n1:h5b.
+n1:t5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 2.1";
+	skos:broader n1:h3d;
+	skos:prefLabel "Routineaufgaben lösen („sich zu helfen wissen“)"@de.
+n1:c6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 2.2";
+	skos:broader n1:h3d;
+	skos:prefLabel "einfache Probleme mit bekannten - auch experimentellen - Verfahren lösen"@de.
+n1:h3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 2";
+	skos:broader n1:z7x;
+	skos:prefLabel "Probleme mathematisch lösen"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:t5t,
+		n1:c6d.
+n1:s6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 3.1";
+	skos:broader n1:z2h;
+	skos:prefLabel "vertraute und direkt erkennbare Modelle nutzen"@de.
+n1:r2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 3.2";
+	skos:broader n1:z2h;
+	skos:prefLabel "einfachen Erscheinungen aus der Erfahrungswelt mathematische Objekte zuordnen"@de.
+n1:q2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 3.3";
+	skos:broader n1:z2h;
+	skos:prefLabel "Resultate am Kontext prüfen"@de.
+n1:z2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 3";
+	skos:broader n1:z7x;
+	skos:prefLabel "Mathematisch modellieren"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:s6q,
+		n1:r2r,
+		n1:q2t.
+n1:r5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 4.1";
+	skos:broader n1:s2q;
+	skos:prefLabel "vertraute und geübte Darstellungen von mathematischen Objekten und Situationen anfertigen oder nutzen"@de.
+n1:s2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 4";
+	skos:broader n1:z7x;
+	skos:prefLabel "Mathematische Darstellungen verwenden"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:r5s.
+n1:e6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 5.1";
+	skos:broader n1:y3q;
+	skos:prefLabel "Routineverfahren verwenden"@de.
+n1:g6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 5.2";
+	skos:broader n1:y3q;
+	skos:prefLabel "mit vertrauten Formeln und Symbolen umgehen"@de.
+n1:y5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 5.3";
+	skos:broader n1:y3q;
+	skos:prefLabel "mathematische Werkzeuge (wie Formelsammlungen, Taschenrechner, Software) in Situationen nutzen, in denen ihr Einsatz geübt wurde"@de.
+n1:y3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 5";
+	skos:broader n1:z7x;
+	skos:prefLabel "Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:e6f,
+		n1:g6y,
+		n1:y5y.
+n1:y3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 6.1";
+	skos:broader n1:h6d;
+	skos:prefLabel "einfache mathematische Sachverhalte mündlich und schriftlich ausdrücken"@de.
+n1:d2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 6.2";
+	skos:broader n1:h6d;
+	skos:prefLabel "aus kurzen, einfachen mathematikhaltigen Texten, Grafiken und Abbildungen Informationen entnehmen"@de.
+n1:b9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 6.3";
+	skos:broader n1:h6d;
+	skos:prefLabel "auf Fragen und Kritik sachlich und angemessen reagieren"@de.
+n1:h6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I 6";
+	skos:broader n1:z7x;
+	skos:prefLabel "Kommunizieren"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:y3y,
+		n1:d2x,
+		n1:b9e.
+n1:z7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich I"@de; 
+	skos:definition "Dieser Bereich umfasst die Wiedergabe und direkte Anwendung von grundlegenden Begriffen, Sätzen und Verfahren in einem abgegrenzten Gebiet und einem wiederholenden Zusammenhang."@de;
+	skos:narrower 
+		n1:u3q,
+		n1:h3d,
+		n1:z2h,
+		n1:s2q,
+		n1:y3q,
+		n1:h6d.
+n1:c5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 1.1";
+	skos:broader n1:h9e;
+	skos:prefLabel "überschaubare mehrschrittige Argumentationen erläutern oder entwickeln"@de.
+n1:a7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 1.2";
+	skos:broader n1:h9e;
+	skos:prefLabel "einen Lösungsweg beschreiben und begründen"@de.
+n1:c9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 1.3";
+	skos:broader n1:h9e;
+	skos:prefLabel "Ergebnisse bzgl. ihres Anwendungskontextes bewerten"@de.
+n1:t6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 1.4";
+	skos:broader n1:h9e;
+	skos:prefLabel "Zusammenhänge, Ordnungen und Strukturen erläutern"@de.
+n1:h9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 1";
+	skos:broader n1:c3h;
+	skos:prefLabel "Mathematisch argumentieren"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:c5f,
+		n1:a7t,
+		n1:c9c,
+		n1:t6b.
+n1:a9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 2.1";
+	skos:broader n1:r7q;
+	skos:prefLabel "Probleme bearbeiten, deren Lösung die Anwendung von heuristischen Hilfsmitteln, Strategien und Prinzipien erfordert"@de.
+n1:c6u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 2.2";
+	skos:broader n1:r7q;
+	skos:prefLabel "Probleme selbst formulieren"@de.
+n1:s4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 2.3";
+	skos:broader n1:r7q;
+	skos:prefLabel "die Plausibilität von Ergebnissen überprüfen"@de.
+n1:r7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 2";
+	skos:broader n1:c3h;
+	skos:prefLabel "Probleme mathematisch lösen"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:a9q,
+		n1:c6u,
+		n1:s4g.
+n1:f4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 3.1";
+	skos:broader n1:p7t;
+	skos:prefLabel "Modellierungen, die mehrere Schritte erfordern, vornehmen"@de.
+n1:f9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 3.2";
+	skos:broader n1:p7t;
+	skos:prefLabel "Ergebnisse einer Modellierung interpretieren und an der Ausgangssituation prüfen"@de.
+n1:v4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 3.3";
+	skos:broader n1:p7t;
+	skos:prefLabel "einem mathematischen Modell passende Situationen zuordnen"@de.
+n1:p7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 3";
+	skos:broader n1:c3h;
+	skos:prefLabel "Mathematisch modellieren"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:f4x,
+		n1:f9e,
+		n1:v4v.
+n1:h2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 4.1";
+	skos:broader n1:e7z;
+	skos:prefLabel "Beziehungen zwischen Darstellungsformen erkennen und zwischen den Darstellungsformen wechseln"@de.
+n1:e7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 4";
+	skos:broader n1:c3h;
+	skos:prefLabel "Mathematische Darstellungen verwenden"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:h2y.
+n1:d6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 5.1";
+	skos:broader n1:g2r;
+	skos:prefLabel "Lösungs- und Kontrollverfahren ausführen"@de.
+n1:r5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 5.2";
+	skos:broader n1:g2r;
+	skos:prefLabel "symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt"@de.
+n1:p7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 5.3";
+	skos:broader n1:g2r;
+	skos:prefLabel "mit Variablen, Termen, Gleichungen, Funktionen, Tabellen und Diagrammen arbeiten"@de.
+n1:u3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 5.4";
+	skos:broader n1:g2r;
+	skos:prefLabel "mathematische Werkzeuge verständig auswählen und einsetzen"@de.
+n1:g2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 5";
+	skos:broader n1:c3h;
+	skos:prefLabel "Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:d6p,
+		n1:r5q,
+		n1:p7f,
+		n1:u3y.
+n1:u9t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 6.1";
+	skos:broader n1:a4r;
+	skos:prefLabel "Überlegungen, Lösungswege bzw. Ergebnisse verständlich darstellen"@de.
+n1:y2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 6.2";
+	skos:broader n1:a4r;
+	skos:prefLabel "komplexe mathematikhaltige Texte, Grafiken und Abbildungen sinnentnehmend erfassen"@de.
+n1:g9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 6.3";
+	skos:broader n1:a4r;
+	skos:prefLabel "die Fachsprache adressatengerecht verwenden"@de.
+n1:q4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 6.4";
+	skos:broader n1:a4r;
+	skos:prefLabel "auf Äußerungen von anderen zu mathematischen Inhalten eingehen"@de.
+n1:p2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 6.5";
+	skos:broader n1:a4r;
+	skos:prefLabel "mit Fehlern konstruktiv umgehen"@de.
+n1:a4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II 6";
+	skos:broader n1:c3h;
+	skos:prefLabel "Kommunizieren"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:u9t,
+		n1:y2e,
+		n1:g9r,
+		n1:q4d,
+		n1:p2h.
+n1:c3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zusammenhänge herstellen"@de; 
+	skos:definition "Dieser Bereich umfasst das Bearbeiten bekannter Sachverhalte, indem Kenntnisse, Fertigkeiten und Fähigkeiten verknüpft werden, die in der Auseinandersetzung mit Mathematik auf verschiedenen Gebieten erworben wurden."@de;
+	skos:narrower 
+		n1:h9e,
+		n1:r7q,
+		n1:p7t,
+		n1:e7z,
+		n1:g2r,
+		n1:a4r.
+n1:v9t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 1.1";
+	skos:broader n1:e6a;
+	skos:prefLabel "komplexe Argumentationen erläutern oder entwickeln"@de.
+n1:c7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 1.2";
+	skos:broader n1:e6a;
+	skos:prefLabel "verschiedene Argumentationen bewerten"@de.
+n1:d5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 1.3";
+	skos:broader n1:e6a;
+	skos:prefLabel "Fragen stellen, die für die Mathematik charakteristisch sind und Vermutungen begründet äußern"@de.
+n1:e6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 1";
+	skos:broader n1:x6g;
+	skos:prefLabel "Mathematisch argumentieren"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:v9t,
+		n1:c7p,
+		n1:d5f.
+n1:z5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 2.1";
+	skos:broader n1:y9z;
+	skos:prefLabel "anspruchsvolle Probleme bearbeiten"@de.
+n1:q3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 2.2";
+	skos:broader n1:y9z;
+	skos:prefLabel "das Finden von Lösungsideen und die Lösungswege reflektieren"@de.
+n1:y9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 2";
+	skos:broader n1:x6g;
+	skos:prefLabel "Probleme mathematisch lösen"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:z5u,
+		n1:q3y.
+n1:s7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 3.1";
+	skos:broader n1:r5d;
+	skos:prefLabel "komplexe oder unvertraute Situationen modellieren"@de.
+n1:z7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 3.2";
+	skos:broader n1:r5d;
+	skos:prefLabel "verwendete mathematische Modelle(wie Formeln, Gleichungen, Darstellungen von Zuordnungen, Zeichnungen, strukturierte Darstellungen, Ablaufpläne) reflektieren und kritisch beurteilen"@de.
+n1:r5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 3";
+	skos:broader n1:x6g;
+	skos:prefLabel "Mathematisch modellieren"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:s7u,
+		n1:z7t.
+n1:c3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 4.1";
+	skos:broader n1:f2r;
+	skos:prefLabel "eigene Darstellungen entwickeln"@de.
+n1:y5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 4.2";
+	skos:broader n1:f2r;
+	skos:prefLabel "verschiedene Formen der Darstellung zweckentsprechend beurteilen"@de.
+n1:d9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 4.3";
+	skos:broader n1:f2r;
+	skos:prefLabel "nicht vertraute Darstellungen lesen und ihre Aussagekraft beurteilen"@de.
+n1:f2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 4";
+	skos:broader n1:x6g;
+	skos:prefLabel "Mathematische Darstellungen verwenden"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:c3s,
+		n1:y5c,
+		n1:d9z.
+n1:b9t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 5.1";
+	skos:broader n1:z3p;
+	skos:prefLabel "Lösungs- und Kontrollverfahren hinsichtlich ihrer Effizienz bewerten"@de.
+n1:g3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 5.2";
+	skos:broader n1:z3p;
+	skos:prefLabel "Möglichkeiten und Grenzen der Nutzung mathematischer Werkzeuge reflektieren"@de.
+n1:z3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 5";
+	skos:broader n1:x6g;
+	skos:prefLabel "Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:b9t,
+		n1:g3u.
+n1:r5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 6.1";
+	skos:broader n1:x9z;
+	skos:prefLabel "komplexe mathematische Sachverhalte mündlich und schriftlich präsentieren"@de.
+n1:p3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 6.2";
+	skos:broader n1:x9z;
+	skos:prefLabel "komplexe mathematische Texte sinnentnehmend erfassen"@de.
+n1:e7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 6.3";
+	skos:broader n1:x9z;
+	skos:prefLabel "Äußerungen von anderen zu mathematischen Inhalten bewerten"@de.
+n1:x9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III 6";
+	skos:broader n1:x6g;
+	skos:prefLabel "Kommunizieren"@de; 
+	skos:definition "Dazu gehört:"@de;
+	skos:narrower 
+		n1:r5c,
+		n1:p3q,
+		n1:e7e.
+n1:x6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Verallgemeinern und Reflektieren"@de; 
+	skos:definition "Dieser Bereich umfasst das Bearbeiten komplexer Gegebenheiten u. a. mit dem Ziel, zu eigenen Problemformulierungen, Lösungen, Begründungen, Folgerungen, Interpretationen oder Wertungen zu gelangen."@de;
+	skos:narrower 
+		n1:e6a,
+		n1:y9z,
+		n1:r5d,
+		n1:f2r,
+		n1:z3p,
+		n1:x9z.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Mathematik MSA 2003 - Anforderungsbereiche"@de;
+	dct:description """Zum Lösen mathematischer Aufgaben werden die allgemeinen mathematischen Kompetenzen in unterschiedlicher Ausprägung benötigt. Diesbezüglich lassen sich drei Anforderungsbereiche unterscheiden: Reproduzieren, Zusammenhänge herstellen sowie Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich zu Anforderungsbereich zu. 
+
+Die Anforderungsbereiche sind für alle allgemeinen mathematischen Kompetenzen wie folgt charakterisiert:"""@de;
+	skos:hasTopConcept
+		n1:z7x,
+		n1:c3h,
+		n1:x6g.
